@@ -1,0 +1,17 @@
+{
+    "name": "simplydi/simplyrouter",
+    "description": "A simple PHP routing system for small apps",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "SimplyDi\\SimplyRouter\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Bharat Kumar",
+            "email": "naman97034@gmail.com"
+        }
+    ],
+    "require": {}
+}
