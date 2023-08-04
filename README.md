@@ -32,5 +32,11 @@ $route->match('/post/{slug}', function ($params) {
     echo "Post with slug: " . $slug;
 });
 
+# using controller classes
+$route->match('/{slug}', function ($params) {
+    $slug = $params['slug'];
+    return (new PageController)->single($slug);
+});
+
 $route->run(); // run the router
 ```
